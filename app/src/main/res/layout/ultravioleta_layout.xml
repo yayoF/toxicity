@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtCiudad"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:text=""
+        android:textStyle="bold"
+        android:textColor="@color/verde1"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/txtEstado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="12dp"
+        android:text="Nivel recomendado de rayos ultravioleta entre 0 y 3 Uvi"/>
+
+    <TextView
+        android:id="@+id/txtUvIndex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/txtUvAlert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:layout_width="255dp"
+        android:layout_height="45dp"
+        android:background="@drawable/bar_db_container"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/bar_db"
+            android:orientation="horizontal" >
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/bardb"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/bar_db_negative" >
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/uvi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/red"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnvideo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="verifica"/>
+
+    <TextView
+        android:id="@+id/txtVerif1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="El nivel actual UV es"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="12dp"
+        android:layout_gravity="center_horizontal"
+        android:visibility="invisible"/>
+    <TextView
+        android:id="@+id/txtVerif2"
+        android:textColor="@color/verde1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text=""
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:visibility="visible"/>
+
+</LinearLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textColor="@color/blanco"
+        android:text="Toxicity"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:layout_gravity="center"
+        android:background="@drawable/splash_toxicity_small"
+        android:layout_weight="2"/>
+
+    <Button
+        android:id="@+id/btnDecibeles"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/verde1"
+        android:textColor="@color/blanco"
+        android:layout_gravity="center"
+        android:text="Medir Decibeles"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/btnToxicidad"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/verde2"
+        android:textColor="@color/blanco"
+        android:layout_gravity="center"
+        android:text="Medir toxicidad"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/btnComingSoon"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/verde3"
+        android:textColor="@color/blanco"
+        android:layout_gravity="center"
+        android:text="Coming Soon ..."
+        android:layout_weight="1"/>
+
+
+
+
+</LinearLayout>

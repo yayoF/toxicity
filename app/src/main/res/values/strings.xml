@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Toxicity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="title">Indicador de decibelios</string>
+    <string name="barra">" / "</string>
+    <string name="db">-80 dB</string>
+
+</resources>
